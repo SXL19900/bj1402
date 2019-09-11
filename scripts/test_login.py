@@ -13,7 +13,7 @@ def get_data():
 
 
 class TestLogin:
-    # 初始化
+    # 初始化 方法
     def setup_class(self):
         # 实例化获取PageLogin
         self.login = PageIn().page_get_pagelogin()
